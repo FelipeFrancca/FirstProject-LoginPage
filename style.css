@@ -93,7 +93,7 @@ body {
 .direitos2 {
     color: #000022;
     position: absolute;
-    margin-top: 10.75rem;
+    margin-top: 8.4rem;
     margin-left: 4rem;
 }
 
@@ -148,6 +148,16 @@ body {
     text-align: center;
     text-decoration: none;
     padding: 25px;
+}
+
+.aLink {
+    text-decoration: none;
+    color: #ff3500;
+}
+
+.aLink:hover {
+    text-decoration: underline;
+    color: #000022;
 }
 
 .suporte {

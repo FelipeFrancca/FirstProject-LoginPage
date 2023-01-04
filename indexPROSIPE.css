@@ -1,0 +1,105 @@
+body {
+    background-color: #000022;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.bgWhite {
+    background-color: white;
+    min-width: 500px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+
+.login p {
+    margin-top: 10px;
+    height: 7px;
+}
+
+.login input {
+    width: 75%;
+    height: 7%;
+    border-radius: 7px;
+}
+
+.logo {
+    margin-top: 4rem;
+    margin-left: 8.5rem;
+    width: 15rem;
+    height: auto;
+}
+
+.conta {
+    font-weight: 500;
+    text-align: center;
+}
+
+.bgImage {
+    position: absolute;
+    margin-left: 500px;
+}
+
+.bgImage img {
+    width: 131.2%;
+    height: auto;
+}
+
+.direitos {
+    color: #000022;
+    text-align: center;
+    inset-inline: none;
+    margin-top: 15%;
+}
+
+.botao p {
+    background-color: #000022;
+    color: white;
+    height: 30px;
+    width: 130px;
+    border-radius: 20px;
+    margin-top: 2rem;
+    margin-left: 11.3rem;
+    font-weight: 700;
+}
+
+.botao p:hover {
+    background-color: #ff3500;
+    color: 000022;
+    border-radius: 20px;
+}
+
+.botao a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.suporte {
+    position: absolute;
+
+}
+
+.suporte img {
+    position: fixed;
+    width: 100px;
+    bottom: 50px;
+    right: 50px;
+}
+
+.suporte img:hover {
+    top: -2px;
+}
+.recuperar {
+    text-decoration: none;
+    margin-left: 15.5rem;
+    
+}

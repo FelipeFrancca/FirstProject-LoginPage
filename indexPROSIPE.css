@@ -1,5 +1,6 @@
 body {
-    background-color: #000022;
+    background-image: url("./Imagens/Mossoro.jpeg");
+    background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -43,15 +44,6 @@ body {
     text-align: center;
 }
 
-.bgImage {
-    position: absolute;
-    margin-left: 500px;
-}
-
-.bgImage img {
-    width: 131.2%;
-    height: auto;
-}
 
 .direitos {
     color: #000022;
@@ -60,18 +52,18 @@ body {
     margin-top: 15%;
 }
 
-.botao p {
+.botao  {
     background-color: #000022;
     color: white;
-    height: 30px;
+    margin-top: 2rem;
+    font-weight: 700;
     width: 130px;
     border-radius: 20px;
-    margin-top: 2rem;
-    margin-left: 11.3rem;
-    font-weight: 700;
+    margin-left: 11rem;
+    padding: 10px;
 }
 
-.botao p:hover {
+.botao:hover {
     background-color: #ff3500;
     color: 000022;
     border-radius: 20px;
@@ -81,6 +73,7 @@ body {
     color: white;
     text-align: center;
     text-decoration: none;
+    padding: 17px;
 }
 
 .suporte {
@@ -96,10 +89,20 @@ body {
 }
 
 .suporte img:hover {
-    top: -2px;
+    margin-bottom: 2px;
 }
 .recuperar {
     text-decoration: none;
     margin-left: 15.5rem;
     
+}
+
+@media only screen and (max-width: 600px) {
+
+    .suporte img {
+        position: fixed;
+        width: 50px;
+        bottom: 80px;
+        right: 30px;
+    }
 }

@@ -8,6 +8,16 @@ body {
     overflow: hidden;
 }
 
+.bgPrint {
+    background-image: url("./Imagens/tela.png");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+}
+
 .bgWhite {
     background-color: white;
     min-width: 500px;
@@ -32,6 +42,22 @@ body {
     border-radius: 7px;
 }
 
+.recuperarLogin {
+    margin-top: 3rem;
+    margin-left: 6rem;
+}
+
+.recuperarLogin p {
+    margin-top: 10px;
+    height: 7px;
+}
+
+.recuperarLogin input {
+    width: 75%;
+    height: 7%;
+    border-radius: 7px;
+}
+
 .logo {
     margin-top: 4rem;
     margin-left: 8.5rem;
@@ -44,15 +70,39 @@ body {
     text-align: center;
 }
 
+.direitos a {
+    text-decoration: none;
+}
 
 .direitos {
     color: #000022;
-    text-align: center;
-    inset-inline: none;
-    margin-top: 15%;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 4rem;
 }
 
-.botao  {
+.direitos:hover a {
+    text-decoration: underline;
+
+}
+
+.direitos2 a {
+    text-decoration: none;
+}
+
+.direitos2 {
+    color: #000022;
+    position: absolute;
+    margin-top: 10.75rem;
+    margin-left: 4rem;
+}
+
+.direitos2:hover a {
+    text-decoration: underline;
+
+}
+
+.botao {
     background-color: #000022;
     color: white;
     margin-top: 2rem;
@@ -76,6 +126,30 @@ body {
     padding: 17px;
 }
 
+.botaoRecuperar {
+    background-color: #000022;
+    color: white;
+    margin-top: 2rem;
+    font-weight: 700;
+    width: 130px;
+    border-radius: 20px;
+    margin-left: 11rem;
+    padding: 10px;
+}
+
+.botaoRecuperar:hover {
+    background-color: #ff3500;
+    color: 000022;
+    border-radius: 20px;
+}
+
+.botaoRecuperar a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px;
+}
+
 .suporte {
     position: absolute;
 
@@ -91,10 +165,16 @@ body {
 .suporte img:hover {
     margin-bottom: 2px;
 }
-.recuperar {
+
+.recuperar a {
     text-decoration: none;
     margin-left: 15.5rem;
-    
+
+}
+
+.recuperar:hover {
+    text-decoration: underline;
+
 }
 
 @media only screen and (max-width: 600px) {
